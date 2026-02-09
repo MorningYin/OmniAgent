@@ -1,0 +1,29 @@
+{
+  "idx": 501,
+  "url": "http://images.cocodataset.org/train2017/000000512787.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. water bottle\nB. stop sign\nC. None\nD. None",
+  "options": {
+    "A": "water bottle",
+    "B": "stop sign",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The stop sign is on a pole further down the street, while the water bottle is held by a person in the foreground, making the stop sign clearly further away in 3D space.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.14,
+  "time_direct_answer": 1.08,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

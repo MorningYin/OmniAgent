@@ -1,0 +1,30 @@
+{
+  "idx": 75,
+  "url": "http://images.cocodataset.org/train2017/000000146151.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. blue motorcycle\nB. green motorcycle\nC. None\nD. None",
+  "options": {
+    "A": "blue motorcycle",
+    "B": "green motorcycle",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 6,
+  "triage_need_depth": true,
+  "triage_reason": "The depth relationship between the two motorcycles is ambiguous in the 2D image; both appear to be in the mid-ground, and without a depth map or clear occlusion cues, it's hard to determine which is further away with certainty.",
+  "trigger_reason": "low_confidence(6)",
+  "use_editor": true,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.28,
+  "time_direct_answer": 1.04,
+  "time_depth": 3.61,
+  "time_depth_answer": 2.27,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

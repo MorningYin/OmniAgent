@@ -1,0 +1,29 @@
+{
+  "idx": 93,
+  "url": "http://images.cocodataset.org/train2017/000000362314.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. person in white shirt\nB. refrigerator with drinks\nC. None\nD. None",
+  "options": {
+    "A": "person in white shirt",
+    "B": "refrigerator with drinks",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The sandwich and plate are in the foreground, while the person in the white shirt is in the background, making the depth relationship very obvious without needing a depth map.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.02,
+  "time_direct_answer": 3.86,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

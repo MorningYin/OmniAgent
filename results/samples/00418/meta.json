@@ -1,0 +1,29 @@
+{
+  "idx": 418,
+  "url": "http://images.cocodataset.org/train2017/000000160610.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. bus\nB. bicycles\nC. None\nD. None",
+  "options": {
+    "A": "bus",
+    "B": "bicycles",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The bus is clearly positioned further down the street and appears smaller in the frame than the bicycles, which are parked in the foreground on the left side, indicating it is further away from the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.1,
+  "time_direct_answer": 1.01,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

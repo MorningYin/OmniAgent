@@ -1,0 +1,29 @@
+{
+  "idx": 675,
+  "url": "http://images.cocodataset.org/train2017/000000070104.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. red bus\nB. no entry sign\nC. None\nD. None",
+  "options": {
+    "A": "red bus",
+    "B": "no entry sign",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The red bus is in the foreground, occupying a large portion of the image and positioned directly in front of the camera, while the no entry sign is further back on the right side of the road.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.19,
+  "time_direct_answer": 1.07,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "idx": 71,
+  "url": "http://images.cocodataset.org/train2017/000000466536.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. clock\nB. traffic light\nC. None\nD. None",
+  "options": {
+    "A": "clock",
+    "B": "traffic light",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The clock is a large sculpture in the middle of the intersection, while the traffic light is on the near sidewalk, making the clock clearly further away in 3D space.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.08,
+  "time_direct_answer": 1.02,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

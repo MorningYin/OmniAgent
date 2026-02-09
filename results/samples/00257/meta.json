@@ -1,0 +1,29 @@
+{
+  "idx": 257,
+  "url": "http://images.cocodataset.org/train2017/000000556363.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. green street sign\nB. white bus\nC. None\nD. None",
+  "options": {
+    "A": "green street sign",
+    "B": "white bus",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The white bus is clearly in the mid-ground, while the green street sign is on a pole further down the street, making it visibly farther away in the 3D scene.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.31,
+  "time_direct_answer": 1.16,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

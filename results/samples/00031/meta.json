@@ -1,0 +1,29 @@
+{
+  "idx": 31,
+  "url": "http://images.cocodataset.org/train2017/000000480022.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. surfboard\nB. blue sign\nC. None\nD. None",
+  "options": {
+    "A": "surfboard",
+    "B": "blue sign",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The surfboard is in the water with a person, positioned behind the blue sign which is in the foreground, making the surfboard clearly further away in 3D space.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.05,
+  "time_direct_answer": 1.06,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

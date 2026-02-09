@@ -1,0 +1,29 @@
+{
+  "idx": 461,
+  "url": "http://images.cocodataset.org/train2017/000000167480.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. \"new york post\" container\nB. blue \"NYC\" sign\nC. None\nD. None",
+  "options": {
+    "A": "\"new york post\" container",
+    "B": "blue \"NYC\" sign",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The \"new york post\" container is on the sidewalk in the foreground, while the \"NYC\" sign is on a pole further back, making the container clearly closer to the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.13,
+  "time_direct_answer": 1.53,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "idx": 593,
+  "url": "http://images.cocodataset.org/train2017/000000430739.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. space shuttle\nB. camera crane\nC. None\nD. None",
+  "options": {
+    "A": "space shuttle",
+    "B": "camera crane",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 3,
+  "triage_need_depth": true,
+  "triage_reason": "The image is a 2D projection, and without a depth map or clear foreground/background cues, it is ambiguous whether the space shuttle or the camera crane (which appears to be a person's hand holding a camera) is closer. The hand/camera is partially obscuring the view, suggesting it's in front, but this is not definitively clear without depth information.",
+  "trigger_reason": "low_confidence(3)",
+  "use_editor": true,
+  "final": "A",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.83,
+  "time_direct_answer": 1.87,
+  "time_depth": 3.73,
+  "time_depth_answer": 4.09,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

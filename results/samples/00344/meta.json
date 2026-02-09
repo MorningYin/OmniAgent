@@ -1,0 +1,29 @@
+{
+  "idx": 344,
+  "url": "http://images.cocodataset.org/train2017/000000065008.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. kite\nB. woman\nC. None\nD. None",
+  "options": {
+    "A": "kite",
+    "B": "woman",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The woman is standing on the grass holding the kite string, and the kite is on the ground near her feet, making it clear from the 2D image that the woman is closer to the camera than the kite.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.19,
+  "time_direct_answer": 1.18,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

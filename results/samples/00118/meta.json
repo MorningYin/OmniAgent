@@ -1,0 +1,29 @@
+{
+  "idx": 118,
+  "url": "http://images.cocodataset.org/train2017/000000360452.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. rubbish bin\nB. baseball\nC. None\nD. None",
+  "options": {
+    "A": "rubbish bin",
+    "B": "baseball",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The baseball is in the foreground, near the batter, while the rubbish bin is in the mid-ground behind the fence, making it clearly further away from the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.01,
+  "time_direct_answer": 0.92,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

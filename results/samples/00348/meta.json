@@ -1,0 +1,29 @@
+{
+  "idx": 348,
+  "url": "http://images.cocodataset.org/train2017/000000336580.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. \"Broadway\" sign\nB. board that says \"The Event\"\nC. None\nD. None",
+  "options": {
+    "A": "\"Broadway\" sign",
+    "B": "board that says \"The Event\"",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The \"Broadway\" sign is mounted on a pole closer to the camera's viewpoint, while \"The Event\" board is further back on a building facade, making the depth relationship visually clear.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.21,
+  "time_direct_answer": 1.4,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

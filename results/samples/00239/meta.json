@@ -1,0 +1,29 @@
+{
+  "idx": 239,
+  "url": "http://images.cocodataset.org/train2017/000000170035.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. horse\nB. taxi\nC. None\nD. None",
+  "options": {
+    "A": "horse",
+    "B": "taxi",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 10,
+  "triage_need_depth": false,
+  "triage_reason": "The horse is in the foreground, occupying the right side of the frame and filling a large portion of the image, while the taxi is in the background, clearly behind the horse.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.13,
+  "time_direct_answer": 0.85,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

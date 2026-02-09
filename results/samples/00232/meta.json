@@ -1,0 +1,29 @@
+{
+  "idx": 232,
+  "url": "http://images.cocodataset.org/train2017/000000287875.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. bird\nB. ocean waves\nC. None\nD. None",
+  "options": {
+    "A": "bird",
+    "B": "ocean waves",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The ocean waves are clearly in the background, extending far beyond the bird which is perched on a foreground ledge, making the depth relationship obvious without a depth map.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.01,
+  "time_direct_answer": 1.07,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

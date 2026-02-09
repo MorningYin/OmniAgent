@@ -1,0 +1,29 @@
+{
+  "idx": 192,
+  "url": "http://images.cocodataset.org/train2017/000000555088.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. \"Do not block\" sign\nB. NBA 2K10 advertisement board\nC. None\nD. None",
+  "options": {
+    "A": "\"Do not block\" sign",
+    "B": "NBA 2K10 advertisement board",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The \"Do not block\" sign is on a pole in the foreground, while the NBA 2K10 advertisement board is on a distant building, making the depth relationship very obvious.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.09,
+  "time_direct_answer": 1.07,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "idx": 185,
+  "url": "http://images.cocodataset.org/train2017/000000100990.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. mini golf court\nB. man wearing black hat\nC. None\nD. None",
+  "options": {
+    "A": "mini golf court",
+    "B": "man wearing black hat",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The mini golf court is in the foreground, with its green surface and orange holes clearly visible and occupying a significant portion of the lower right of the frame, while the man in the black hat is further back in the scene.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.3,
+  "time_direct_answer": 1.06,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

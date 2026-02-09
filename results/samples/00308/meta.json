@@ -1,0 +1,29 @@
+{
+  "idx": 308,
+  "url": "http://images.cocodataset.org/train2017/000000072861.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. person in blue\nB. person holding a baseball bat\nC. None\nD. None",
+  "options": {
+    "A": "person in blue",
+    "B": "person holding a baseball bat",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The person holding the bat is positioned behind the batter and catcher, who are closer to the camera, while the pitcher is further away, but the person in blue (the umpire) is directly behind the batter and is closer to the camera than the pitcher. However, the question asks which is further from the camera between the person in blue and the person holding the bat. The person holding the bat is the batter, who is at home plate, while the person in blue is the umpire, who is also at home plate but slightly behind the batter. In a real-world 3D scene, the umpire is positioned slightly further from the camera than the batter, as the batter is in front of the umpire. Therefore, the person in blue is further away from the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 3.33,
+  "time_direct_answer": 1.04,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

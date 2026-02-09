@@ -1,0 +1,29 @@
+{
+  "idx": 477,
+  "url": "http://images.cocodataset.org/train2017/000000171422.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. airplane engine\nB. man in yellow vest\nC. None\nD. None",
+  "options": {
+    "A": "airplane engine",
+    "B": "man in yellow vest",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The man in the yellow vest is on the jet bridge ramp, which is directly in front of the camera's viewpoint, while the airplane engine is part of the aircraft fuselage that is farther away from the camera's position.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.22,
+  "time_direct_answer": 1.04,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

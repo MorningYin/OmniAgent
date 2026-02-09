@@ -1,0 +1,30 @@
+{
+  "idx": 450,
+  "url": "http://images.cocodataset.org/train2017/000000220502.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. man in grey jacket\nB. man in dark blue suit\nC. None\nD. None",
+  "options": {
+    "A": "man in grey jacket",
+    "B": "man in dark blue suit",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 6,
+  "triage_need_depth": true,
+  "triage_reason": "The depth relationship between the two men is ambiguous in the 2D image; both appear to be near the bus and at similar distances from the camera, making it difficult to determine which is further without a depth map.",
+  "trigger_reason": "low_confidence(6)",
+  "use_editor": true,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.25,
+  "time_direct_answer": 1.18,
+  "time_depth": 3.74,
+  "time_depth_answer": 2.21,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

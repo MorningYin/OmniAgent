@@ -1,0 +1,29 @@
+{
+  "idx": 322,
+  "url": "http://images.cocodataset.org/train2017/000000140963.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. man wearing a hat\nB. young man wearing glasses on the right\nC. None\nD. None",
+  "options": {
+    "A": "man wearing a hat",
+    "B": "young man wearing glasses on the right",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The young man wearing glasses on the right is in the foreground, partially obscuring the view of others, while the man wearing a hat is further back in the scene.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.02,
+  "time_direct_answer": 1.25,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

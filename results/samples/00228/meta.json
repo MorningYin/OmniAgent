@@ -1,0 +1,29 @@
+{
+  "idx": 228,
+  "url": "http://images.cocodataset.org/train2017/000000260238.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. national flag\nB. red car\nC. None\nD. None",
+  "options": {
+    "A": "national flag",
+    "B": "red car",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The red car is clearly behind the motorcycle and flag in the image, indicating it is further away from the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 0.83,
+  "time_direct_answer": 0.86,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

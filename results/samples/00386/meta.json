@@ -1,0 +1,30 @@
+{
+  "idx": 386,
+  "url": "http://images.cocodataset.org/train2017/000000461847.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. gloves\nB. gray bag\nC. None\nD. None",
+  "options": {
+    "A": "gloves",
+    "B": "gray bag",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 6,
+  "triage_need_depth": true,
+  "triage_reason": "The depth relationship between the gloves and the gray bag is ambiguous in the 2D image; both appear to be at similar distances from the camera, making it hard to determine which is further without a depth map.",
+  "trigger_reason": "low_confidence(6)",
+  "use_editor": true,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.2,
+  "time_direct_answer": 0.91,
+  "time_depth": 3.77,
+  "time_depth_answer": 1.76,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "idx": 314,
+  "url": "http://images.cocodataset.org/train2017/000000527229.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. bicycle\nB. vacuum machine\nC. None\nD. None",
+  "options": {
+    "A": "bicycle",
+    "B": "vacuum machine",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The bicycle is clearly in the foreground on the left, partially obscuring the couch, while the vacuum machine is further back in the room near the doorway, making the bicycle visibly closer to the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.12,
+  "time_direct_answer": 0.92,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

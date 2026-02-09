@@ -1,0 +1,30 @@
+{
+  "idx": 199,
+  "url": "http://images.cocodataset.org/train2017/000000567106.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. fridge\nB. oven\nC. None\nD. None",
+  "options": {
+    "A": "fridge",
+    "B": "oven",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 6,
+  "triage_need_depth": true,
+  "triage_reason": "The oven is partially obscured by the chair and appears further back in the kitchen, while the fridge is closer to the foreground, making depth judgment from 2D image ambiguous without a depth map.",
+  "trigger_reason": "low_confidence(6)",
+  "use_editor": true,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.15,
+  "time_direct_answer": 0.92,
+  "time_depth": 3.75,
+  "time_depth_answer": 2.7,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

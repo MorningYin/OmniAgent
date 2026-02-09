@@ -1,0 +1,29 @@
+{
+  "idx": 454,
+  "url": "http://images.cocodataset.org/train2017/000000189472.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. red chair\nB. stove\nC. None\nD. None",
+  "options": {
+    "A": "red chair",
+    "B": "stove",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The stove is positioned further back in the kitchen layout, behind the red chair, and is partially obscured by the chair, indicating it is further away from the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.02,
+  "time_direct_answer": 0.87,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

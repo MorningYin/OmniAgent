@@ -1,0 +1,29 @@
+{
+  "idx": 263,
+  "url": "http://images.cocodataset.org/train2017/000000403118.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. red airplane\nB. orange truck\nC. None\nD. None",
+  "options": {
+    "A": "red airplane",
+    "B": "orange truck",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The red airplane is flying higher and appears smaller in the frame compared to the orange truck, which is on the runway in the foreground, indicating the airplane is further away.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.09,
+  "time_direct_answer": 0.92,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

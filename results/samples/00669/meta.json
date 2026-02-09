@@ -1,0 +1,29 @@
+{
+  "idx": 669,
+  "url": "http://images.cocodataset.org/train2017/000000243044.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. score board\nB. pepsi ad board\nC. None\nD. None",
+  "options": {
+    "A": "score board",
+    "B": "pepsi ad board",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The score board is in the foreground, partially obscured by the net, while the Pepsi ad board is further back on the outfield wall, making the depth relationship clear without a depth map.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.13,
+  "time_direct_answer": 1.21,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

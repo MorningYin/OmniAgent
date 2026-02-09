@@ -1,0 +1,29 @@
+{
+  "idx": 186,
+  "url": "http://images.cocodataset.org/train2017/000000100990.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. mini golf court\nB. man wearing black hat\nC. None\nD. None",
+  "options": {
+    "A": "mini golf court",
+    "B": "man wearing black hat",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The man wearing the black hat is positioned further back in the parking lot, behind the mini golf court, which is closer to the foreground and partially obstructs the view of the man, indicating he is further away.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.23,
+  "time_direct_answer": 1.29,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

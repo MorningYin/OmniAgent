@@ -1,0 +1,29 @@
+{
+  "idx": 579,
+  "url": "http://images.cocodataset.org/train2017/000000070104.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. red bus\nB. stop sign\nC. None\nD. None",
+  "options": {
+    "A": "red bus",
+    "B": "stop sign",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The stop sign is visibly behind the red bus and further along the road, making its depth relationship clear without needing a depth map.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": false,
+  "error": null,
+  "time_triage": 0.99,
+  "time_direct_answer": 1.24,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

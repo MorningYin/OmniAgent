@@ -1,0 +1,29 @@
+{
+  "idx": 292,
+  "url": "http://images.cocodataset.org/train2017/000000478145.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. person with black backpack on the left\nB. train station info board\nC. None\nD. None",
+  "options": {
+    "A": "person with black backpack on the left",
+    "B": "train station info board",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The person with the black backpack is in the foreground on the platform, while the info board is further back under the station roof, making the backpack wearer clearly closer.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.02,
+  "time_direct_answer": 0.96,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

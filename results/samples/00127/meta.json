@@ -1,0 +1,30 @@
+{
+  "idx": 127,
+  "url": "http://images.cocodataset.org/train2017/000000261071.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. green road sign\nB. white building\nC. None\nD. None",
+  "options": {
+    "A": "green road sign",
+    "B": "white building",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 6,
+  "triage_need_depth": true,
+  "triage_reason": "The white building is partially obscured by the green road sign and appears smaller in the frame, suggesting it is further away, but motion blur and low resolution make precise depth judgment difficult without a depth map.",
+  "trigger_reason": "low_confidence(6)",
+  "use_editor": true,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.13,
+  "time_direct_answer": 0.98,
+  "time_depth": 3.71,
+  "time_depth_answer": 1.7,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

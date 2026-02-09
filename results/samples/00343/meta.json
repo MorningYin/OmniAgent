@@ -1,0 +1,29 @@
+{
+  "idx": 343,
+  "url": "http://images.cocodataset.org/train2017/000000027365.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. score board\nB. \"stazenaer\" logo\nC. None\nD. None",
+  "options": {
+    "A": "score board",
+    "B": "\"stazenaer\" logo",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The \"Stazenaer\" logo is on a green wall that appears closer to the camera than the scoreboard, which is mounted higher and further back on the court structure.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.03,
+  "time_direct_answer": 0.97,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

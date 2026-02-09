@@ -1,0 +1,30 @@
+{
+  "idx": 236,
+  "url": "http://images.cocodataset.org/train2017/000000274286.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. person\nB. elephants\nC. None\nD. None",
+  "options": {
+    "A": "person",
+    "B": "elephants",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 3,
+  "triage_need_depth": true,
+  "triage_reason": "The image is a black-and-white photograph with limited depth cues, and the elephants and person are relatively close to each other in the scene, making it difficult to determine which is further away without a depth map.",
+  "trigger_reason": "low_confidence(3)",
+  "use_editor": true,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.17,
+  "time_direct_answer": 0.88,
+  "time_depth": 3.73,
+  "time_depth_answer": 1.6,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

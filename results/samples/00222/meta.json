@@ -1,0 +1,30 @@
+{
+  "idx": 222,
+  "url": "http://images.cocodataset.org/train2017/000000271580.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. sheep\nB. shepherd dog\nC. None\nD. None",
+  "options": {
+    "A": "sheep",
+    "B": "shepherd dog",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 6,
+  "triage_need_depth": true,
+  "triage_reason": "The shepherd dog is positioned further back in the scene, partially obscured by people and trees, while the sheep is closer to the foreground, making a depth map helpful to confirm the relative positions accurately.",
+  "trigger_reason": "low_confidence(6)",
+  "use_editor": true,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.1,
+  "time_direct_answer": 0.88,
+  "time_depth": 3.72,
+  "time_depth_answer": 1.84,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

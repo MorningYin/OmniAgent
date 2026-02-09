@@ -1,0 +1,29 @@
+{
+  "idx": 132,
+  "url": "http://images.cocodataset.org/train2017/000000265234.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. boat\nB. plane\nC. None\nD. None",
+  "options": {
+    "A": "boat",
+    "B": "plane",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The seaplane is in the foreground on the water, while the large boat is further back, making the depth relationship very obvious.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 0.92,
+  "time_direct_answer": 0.9,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

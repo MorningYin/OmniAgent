@@ -1,0 +1,29 @@
+{
+  "idx": 244,
+  "url": "http://images.cocodataset.org/train2017/000000170442.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. lighted lamp\nB. sofa\nC. None\nD. None",
+  "options": {
+    "A": "lighted lamp",
+    "B": "sofa",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The sofa is positioned against the wall with blinds and is farther back in the room than the lighted lamp, which is closer to the foreground and the bed.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 0.97,
+  "time_direct_answer": 0.93,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

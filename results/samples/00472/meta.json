@@ -1,0 +1,29 @@
+{
+  "idx": 472,
+  "url": "http://images.cocodataset.org/train2017/000000539238.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. umbrella\nB. chair behind the lady\nC. None\nD. None",
+  "options": {
+    "A": "umbrella",
+    "B": "chair behind the lady",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The umbrella is in the foreground, partially covering the scene and appearing larger and more detailed, while the chair behind the lady is further back, clearly in the mid-ground.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.01,
+  "time_direct_answer": 0.97,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

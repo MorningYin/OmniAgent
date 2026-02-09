@@ -45,5 +45,6 @@ class Config:
     image_cache_dir: str = "/root/OmniAgent/image_cache"
 
     # ── Misc ─────────────────────────────────────────────────────────────
+    seed: int = 42
     download_timeout: int = 30
     log_level: str = "INFO"

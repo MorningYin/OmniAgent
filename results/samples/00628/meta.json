@@ -1,0 +1,29 @@
+{
+  "idx": 628,
+  "url": "http://images.cocodataset.org/train2017/000000175864.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. tennis racket\nB. little boy\nC. None\nD. None",
+  "options": {
+    "A": "tennis racket",
+    "B": "little boy",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The tennis racket is in the foreground, resting on the ground near the seated player, while the little boy is in the background, behind the seated player, making the racket clearly closer to the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.19,
+  "time_direct_answer": 0.94,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

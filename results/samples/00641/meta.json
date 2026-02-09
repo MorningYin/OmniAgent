@@ -1,0 +1,29 @@
+{
+  "idx": 641,
+  "url": "http://images.cocodataset.org/train2017/000000400569.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. dog\nB. barn\nC. None\nD. None",
+  "options": {
+    "A": "dog",
+    "B": "barn",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The horse is in the foreground, and the dog is further back, so the horse is closer to the camera than the dog.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 0.9,
+  "time_direct_answer": 0.85,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

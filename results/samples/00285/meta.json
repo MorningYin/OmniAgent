@@ -1,0 +1,29 @@
+{
+  "idx": 285,
+  "url": "http://images.cocodataset.org/train2017/000000296573.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. sheep\nB. man in vintage outfit\nC. None\nD. None",
+  "options": {
+    "A": "sheep",
+    "B": "man in vintage outfit",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The sheep are in the foreground, grazing on the grass near the bottom of the image, while the man in the vintage outfit is standing further back on the right side, making the sheep clearly closer to the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.17,
+  "time_direct_answer": 0.97,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

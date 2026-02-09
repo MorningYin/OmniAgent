@@ -1,0 +1,29 @@
+{
+  "idx": 177,
+  "url": "http://images.cocodataset.org/train2017/000000426663.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. apple sign\nB. fire hydrant\nC. None\nD. None",
+  "options": {
+    "A": "apple sign",
+    "B": "fire hydrant",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The fire hydrant is on the sidewalk in the foreground, while the apple sign is on a building in the background, making their relative depth very obvious from the image.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.06,
+  "time_direct_answer": 1.16,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

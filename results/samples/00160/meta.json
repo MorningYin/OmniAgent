@@ -1,0 +1,29 @@
+{
+  "idx": 160,
+  "url": "http://images.cocodataset.org/train2017/000000294397.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. airport lounge\nB. airplane\nC. None\nD. None",
+  "options": {
+    "A": "airport lounge",
+    "B": "airplane",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The airplane is in the foreground with people boarding it, while the airport lounge is clearly in the distant background, making the depth relationship very obvious.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 0.91,
+  "time_direct_answer": 0.95,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

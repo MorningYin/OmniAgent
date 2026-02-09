@@ -1,0 +1,29 @@
+{
+  "idx": 281,
+  "url": "http://images.cocodataset.org/train2017/000000205392.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. bus\nB. black car\nC. None\nD. None",
+  "options": {
+    "A": "bus",
+    "B": "black car",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The black car is in the foreground on the right side of the image, while the bus is further back in the middle ground, making the depth relationship quite obvious without a depth map.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.12,
+  "time_direct_answer": 1.02,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

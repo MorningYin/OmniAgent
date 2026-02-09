@@ -1,0 +1,29 @@
+{
+  "idx": 673,
+  "url": "http://images.cocodataset.org/train2017/000000050054.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. cup\nB. pole on the right\nC. None\nD. None",
+  "options": {
+    "A": "cup",
+    "B": "pole on the right",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The pole on the right is clearly positioned in the background, beyond the man and the cow, while the cup is held close to the man’s chest, making it much closer to the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.15,
+  "time_direct_answer": 2.18,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

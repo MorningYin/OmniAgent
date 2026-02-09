@@ -1,0 +1,29 @@
+{
+  "idx": 604,
+  "url": "http://images.cocodataset.org/val2017/000000515266.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. cargo trailer\nB. white truck\nC. None\nD. None",
+  "options": {
+    "A": "cargo trailer",
+    "B": "white truck",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The white truck is positioned in front of the cargo trailer and is closer to the camera, as evidenced by its larger apparent size and more detailed features in the foreground.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.01,
+  "time_direct_answer": 0.94,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

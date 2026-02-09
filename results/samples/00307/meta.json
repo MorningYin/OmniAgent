@@ -1,0 +1,29 @@
+{
+  "idx": 307,
+  "url": "http://images.cocodataset.org/train2017/000000072861.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. person in blue\nB. person holding a baseball bat\nC. None\nD. None",
+  "options": {
+    "A": "person in blue",
+    "B": "person holding a baseball bat",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The person holding the bat is positioned directly at home plate and is in the foreground, while the person in blue (the umpire) is slightly behind them, making the batter clearly closer to the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.14,
+  "time_direct_answer": 0.95,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

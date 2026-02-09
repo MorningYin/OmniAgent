@@ -1,0 +1,29 @@
+{
+  "idx": 439,
+  "url": "http://images.cocodataset.org/train2017/000000247703.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. white car\nB. orange \"Z\" sign\nC. None\nD. None",
+  "options": {
+    "A": "white car",
+    "B": "orange \"Z\" sign",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The white car is clearly positioned further back on the street, behind the fire hydrant, while the orange \"Z\" sign is mounted on a nearby building close to the camera's perspective.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.14,
+  "time_direct_answer": 0.93,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "idx": 173,
+  "url": "http://images.cocodataset.org/train2017/000000419296.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. parking meter\nB. motorcycle\nC. None\nD. None",
+  "options": {
+    "A": "parking meter",
+    "B": "motorcycle",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The parking meter is in the immediate foreground, with pink flowers directly in front of it, while the motorcycle is behind the parking meter and further back in the scene.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.01,
+  "time_direct_answer": 0.84,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

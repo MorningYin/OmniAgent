@@ -1,0 +1,29 @@
+{
+  "idx": 656,
+  "url": "http://images.cocodataset.org/train2017/000000360857.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. kid with blue hat\nB. baseball\nC. None\nD. None",
+  "options": {
+    "A": "kid with blue hat",
+    "B": "baseball",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The baseball is in the foreground, being actively thrown by the pitcher, while the kid with the blue hat is further back on the field, making the baseball clearly closer to the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.1,
+  "time_direct_answer": 0.92,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

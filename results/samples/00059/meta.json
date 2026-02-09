@@ -1,0 +1,29 @@
+{
+  "idx": 59,
+  "url": "http://images.cocodataset.org/train2017/000000027777.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. boat\nB. fire hydrant\nC. None\nD. None",
+  "options": {
+    "A": "boat",
+    "B": "fire hydrant",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The boat is clearly in the background across the water, while the fire hydrant is on the sidewalk in the foreground, making the depth relationship very obvious.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 0.99,
+  "time_direct_answer": 0.88,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

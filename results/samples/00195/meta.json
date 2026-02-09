@@ -1,0 +1,29 @@
+{
+  "idx": 195,
+  "url": "http://images.cocodataset.org/train2017/000000555088.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. \"Do not block\" sign\nB. NBA 2K10 advertisement board\nC. None\nD. None",
+  "options": {
+    "A": "\"Do not block\" sign",
+    "B": "NBA 2K10 advertisement board",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The NBA 2K10 advertisement board is visibly mounted higher on a distant building, while the \"Do not block\" sign is closer to the foreground on a pole, making the billboard clearly further away in 3D space.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.34,
+  "time_direct_answer": 1.19,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

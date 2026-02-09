@@ -1,0 +1,30 @@
+{
+  "idx": 403,
+  "url": "http://images.cocodataset.org/train2017/000000544760.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. dog\nB. suitcase\nC. None\nD. None",
+  "options": {
+    "A": "dog",
+    "B": "suitcase",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 6,
+  "triage_need_depth": true,
+  "triage_reason": "The suitcase is partially obscured by the dog and appears to be positioned further back in the scene, but the 2D image makes precise depth judgment ambiguous without a depth map.",
+  "trigger_reason": "low_confidence(6)",
+  "use_editor": true,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.09,
+  "time_direct_answer": 0.97,
+  "time_depth": 3.72,
+  "time_depth_answer": 1.91,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

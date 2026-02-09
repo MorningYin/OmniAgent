@@ -1,0 +1,29 @@
+{
+  "idx": 622,
+  "url": "http://images.cocodataset.org/train2017/000000502409.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. \"851\" sign\nB. \"238\" sign\nC. None\nD. None",
+  "options": {
+    "A": "\"851\" sign",
+    "B": "\"238\" sign",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The \"238\" sign is visibly further in the background compared to the \"851\" sign, which is closer to the foreground and more central in the frame.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.09,
+  "time_direct_answer": 1.24,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

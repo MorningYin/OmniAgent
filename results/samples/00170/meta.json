@@ -1,0 +1,29 @@
+{
+  "idx": 170,
+  "url": "http://images.cocodataset.org/train2017/000000574541.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. motorcycle\nB. man sitting on the bench\nC. None\nD. None",
+  "options": {
+    "A": "motorcycle",
+    "B": "man sitting on the bench",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The man sitting on the bench is positioned further back in the scene, behind the motorcycle and partially obscured by a tree, indicating greater distance from the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": false,
+  "error": null,
+  "time_triage": 0.96,
+  "time_direct_answer": 0.99,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

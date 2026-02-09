@@ -1,0 +1,29 @@
+{
+  "idx": 273,
+  "url": "http://images.cocodataset.org/train2017/000000482748.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. snowboard\nB. street light\nC. None\nD. None",
+  "options": {
+    "A": "snowboard",
+    "B": "street light",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The snowboard is in the foreground, held by the person who is close to the camera, while the street light is in the background, far behind the person.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.09,
+  "time_direct_answer": 0.75,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

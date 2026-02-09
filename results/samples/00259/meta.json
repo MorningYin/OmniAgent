@@ -1,0 +1,30 @@
+{
+  "idx": 259,
+  "url": "http://images.cocodataset.org/train2017/000000082301.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. wooden chair on the left\nB. chair next to the dining table\nC. None\nD. None",
+  "options": {
+    "A": "wooden chair on the left",
+    "B": "chair next to the dining table",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 6,
+  "triage_need_depth": true,
+  "triage_reason": "The wooden chair on the left is partially obscured by a black bag and appears closer, while the chair next to the dining table is further back in the room, but the depth perception is ambiguous due to perspective and clutter in the scene.",
+  "trigger_reason": "low_confidence(6)",
+  "use_editor": true,
+  "final": "A",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.35,
+  "time_direct_answer": 1.2,
+  "time_depth": 3.73,
+  "time_depth_answer": 2.69,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

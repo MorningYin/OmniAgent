@@ -1,0 +1,29 @@
+{
+  "idx": 39,
+  "url": "http://images.cocodataset.org/train2017/000000161218.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. flower\nB. sink\nC. None\nD. None",
+  "options": {
+    "A": "flower",
+    "B": "sink",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The flower is on the left side of the counter, partially behind a chair, while the sink is directly under the window and closer to the camera’s viewpoint, making the flower appear further away.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.11,
+  "time_direct_answer": 1.2,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

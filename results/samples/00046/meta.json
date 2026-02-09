@@ -1,0 +1,30 @@
+{
+  "idx": 46,
+  "url": "http://images.cocodataset.org/train2017/000000420658.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. one way sign\nB. street signs\nC. None\nD. None",
+  "options": {
+    "A": "one way sign",
+    "B": "street signs",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 3,
+  "triage_need_depth": true,
+  "triage_reason": "The \"one way\" sign and the street signs are both mounted on the same pole and appear at nearly the same depth in the image, making it ambiguous which is further away without a depth map.",
+  "trigger_reason": "low_confidence(3)",
+  "use_editor": true,
+  "final": "A",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.15,
+  "time_direct_answer": 1.29,
+  "time_depth": 3.77,
+  "time_depth_answer": 2.53,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

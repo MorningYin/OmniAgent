@@ -1,0 +1,30 @@
+{
+  "idx": 369,
+  "url": "http://images.cocodataset.org/train2017/000000401455.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. cow in the screen\nB. man in blue\nC. None\nD. None",
+  "options": {
+    "A": "cow in the screen",
+    "B": "man in blue",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 3,
+  "triage_need_depth": true,
+  "triage_reason": "The 2D image makes it ambiguous whether the cow on the screen (projected) or the man in blue is closer, as the projected image appears large but may be far away, while the man is mid-stage — depth cues are weak without a depth map.",
+  "trigger_reason": "low_confidence(3)",
+  "use_editor": true,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.41,
+  "time_direct_answer": 0.93,
+  "time_depth": 3.71,
+  "time_depth_answer": 1.73,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

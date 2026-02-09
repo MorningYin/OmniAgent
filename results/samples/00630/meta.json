@@ -1,0 +1,30 @@
+{
+  "idx": 630,
+  "url": "http://images.cocodataset.org/train2017/000000175864.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. tennis racket\nB. little boy\nC. None\nD. None",
+  "options": {
+    "A": "tennis racket",
+    "B": "little boy",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 3,
+  "triage_need_depth": true,
+  "triage_reason": "The little boy is partially obscured and appears smaller in the image, suggesting he is further away than the tennis racket, which is in the foreground. However, without a depth map, this judgment is uncertain due to perspective distortion.",
+  "trigger_reason": "low_confidence(3)",
+  "use_editor": true,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.23,
+  "time_direct_answer": 0.88,
+  "time_depth": 3.72,
+  "time_depth_answer": 2.39,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "idx": 493,
+  "url": "http://images.cocodataset.org/train2017/000000051829.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. yellow bus on the left\nB. sign with a person on it\nC. None\nD. None",
+  "options": {
+    "A": "yellow bus on the left",
+    "B": "sign with a person on it",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The yellow bus on the left is clearly positioned further down the road and behind the foreground bus, while the sign with a person on it is on a building to the right, closer to the camera's perspective.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.25,
+  "time_direct_answer": 1.26,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

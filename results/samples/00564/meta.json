@@ -1,0 +1,29 @@
+{
+  "idx": 564,
+  "url": "http://images.cocodataset.org/train2017/000000488203.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. 7.00 price sign\nB. tv\nC. None\nD. None",
+  "options": {
+    "A": "7.00 price sign",
+    "B": "tv",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The TV is mounted on the wall and positioned higher and closer to the viewer than the 7.00 price sign, which is further back on the wall behind the barber station.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.17,
+  "time_direct_answer": 1.1,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

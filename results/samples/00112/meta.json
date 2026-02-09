@@ -1,0 +1,29 @@
+{
+  "idx": 112,
+  "url": "http://images.cocodataset.org/train2017/000000475466.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. man\nB. bus\nC. None\nD. None",
+  "options": {
+    "A": "man",
+    "B": "bus",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The man is in the foreground, partially silhouetted against the sky, while the bus is behind him and further back, clearly visible in the midground. The depth relationship is very obvious from the image composition.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.21,
+  "time_direct_answer": 0.79,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "idx": 367,
+  "url": "http://images.cocodataset.org/train2017/000000432125.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. brown bowls\nB. doll\nC. None\nD. None",
+  "options": {
+    "A": "brown bowls",
+    "B": "doll",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 6,
+  "triage_need_depth": true,
+  "triage_reason": "The doll is positioned on the left side of the table, partially behind the wine glasses, while the brown bowls are more centrally located and closer to the foreground; however, without a depth map, it's ambiguous whether the doll is truly further away or if the perspective makes it appear so.",
+  "trigger_reason": "low_confidence(6)",
+  "use_editor": true,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.45,
+  "time_direct_answer": 0.96,
+  "time_depth": 3.71,
+  "time_depth_answer": 1.68,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

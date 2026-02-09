@@ -1,0 +1,29 @@
+{
+  "idx": 497,
+  "url": "http://images.cocodataset.org/train2017/000000129262.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. zebra\nB. man\nC. None\nD. None",
+  "options": {
+    "A": "zebra",
+    "B": "man",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The zebra is behind the white fence, while the man is positioned in front of it, making the zebra clearly further away in 3D space.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.05,
+  "time_direct_answer": 1.02,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

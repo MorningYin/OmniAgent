@@ -93,6 +93,24 @@ class OmniAgent:
         """运行完整的推理循环：Triage → 决策 → 直接/深度图辅助回答。"""
         timing = {}
 
+        # ── Baseline 模式：跳过 triage，直接回答 ─────────────────────
+        if not self.config.enable_editor:
+            triage = TriageResult(confidence=0, need_depth_map=False, reason="", raw_output="")
+            decision = TriageDecision(use_editor=False, trigger_reason="editor_disabled")
+
+            t0 = time.time()
+            direct = self.vlm.run_direct_answer(image, question, options)
+            timing["direct_answer"] = round(time.time() - t0, 2)
+            logger.info("Baseline → %s", direct.answer)
+
+            return SolveResult(
+                final_answer=direct.answer,
+                triage=triage,
+                triage_decision=decision,
+                direct_answer=direct,
+                timing=timing,
+            )
+
         # ── Step 1: Triage — 判断难度 ────────────────────────────────
         t0 = time.time()
         triage = self.vlm.run_triage(image, question, options)
@@ -103,10 +121,7 @@ class OmniAgent:
         )
 
         # ── Step 2: 多层安全决策 ─────────────────────────────────────
-        if not self.config.enable_editor:
-            decision = TriageDecision(use_editor=False, trigger_reason="editor_disabled")
-        else:
-            decision = decide_use_editor(triage, self.config)
+        decision = decide_use_editor(triage, self.config)
         logger.info("决策: use_editor=%s, reason=%s", decision.use_editor, decision.trigger_reason)
 
         # ── Path A: 不需要深度图 → 直接回答 ──────────────────────────
@@ -124,17 +139,21 @@ class OmniAgent:
                 timing=timing,
             )
 
-        # ── Path B: 对原图生成深度图 → 深度图辅助回答 ─────────────────
+        # ── Path B: 先直接回答 → 生成深度图 → 追加深度图修正 ──────────
+        # Round 1: 直接回答
+        t0 = time.time()
+        direct = self.vlm.run_direct_answer(image, question, options)
+        timing["direct_answer"] = round(time.time() - t0, 2)
+        logger.info("Round 1 direct → %s", direct.answer)
+
+        # 生成深度图
         logger.info("生成原图深度图: %s", DEPTH_MAP_TEMPLATE)
         try:
             t0 = time.time()
             depth_map = self.editor.edit(image, DEPTH_MAP_TEMPLATE)
             timing["depth"] = round(time.time() - t0, 2)
         except Exception as e:
-            logger.error("深度图生成失败: %s — fallback 到直接回答", e)
-            t0 = time.time()
-            direct = self.vlm.run_direct_answer(image, question, options)
-            timing["direct_answer"] = round(time.time() - t0, 2)
+            logger.error("深度图生成失败: %s — 使用 Round 1 答案", e)
             return SolveResult(
                 final_answer=direct.answer,
                 triage=triage,
@@ -145,29 +164,27 @@ class OmniAgent:
                 timing=timing,
             )
 
-        # VLM 结合原图+深度图回答
+        # Round 2: 追加深度图，让 VLM 在 Round 1 上下文基础上修正
         try:
             t0 = time.time()
             depth_answer = self.vlm.run_depth_assisted_answer(
-                image, depth_map, question, options,
+                depth_map, direct, question, options,
             )
             timing["depth_answer"] = round(time.time() - t0, 2)
-            logger.info("Depth-assisted answer → %s", depth_answer.answer)
+            logger.info("Round 2 depth → %s", depth_answer.answer)
 
             return SolveResult(
                 final_answer=depth_answer.answer,
                 triage=triage,
                 triage_decision=decision,
+                direct_answer=direct,
                 depth_answer=depth_answer,
                 depth_map=depth_map,
                 used_editor=True,
                 timing=timing,
             )
         except Exception as e:
-            logger.error("深度图辅助推理失败: %s — fallback 到直接回答", e)
-            t0 = time.time()
-            direct = self.vlm.run_direct_answer(image, question, options)
-            timing["direct_answer"] = round(time.time() - t0, 2)
+            logger.error("深度图辅助推理失败: %s — 使用 Round 1 答案", e)
             return SolveResult(
                 final_answer=direct.answer,
                 triage=triage,

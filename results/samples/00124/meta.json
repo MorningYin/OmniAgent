@@ -1,0 +1,29 @@
+{
+  "idx": 124,
+  "url": "http://images.cocodataset.org/train2017/000000261071.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. green road sign\nB. white building\nC. None\nD. None",
+  "options": {
+    "A": "green road sign",
+    "B": "white building",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The green road sign is in the foreground, mounted on a pole near the road, while the white building is in the distant background, clearly farther away.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 0.97,
+  "time_direct_answer": 1.04,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

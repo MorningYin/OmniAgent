@@ -1,0 +1,29 @@
+{
+  "idx": 320,
+  "url": "http://images.cocodataset.org/train2017/000000468405.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. cyclist\nB. traffic light\nC. None\nD. None",
+  "options": {
+    "A": "cyclist",
+    "B": "traffic light",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The traffic light is positioned further down the street and appears smaller in the image compared to the cyclist, who is closer to the foreground and larger in apparent size, indicating greater distance for the traffic light.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.41,
+  "time_direct_answer": 1.15,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "idx": 658,
+  "url": "http://images.cocodataset.org/train2017/000000360857.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. kid with blue hat\nB. baseball\nC. None\nD. None",
+  "options": {
+    "A": "kid with blue hat",
+    "B": "baseball",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The kid with the blue hat is positioned behind the pitcher and further back in the scene, while the baseball is in mid-air near the pitcher’s hand, making it much closer to the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.15,
+  "time_direct_answer": 1.23,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

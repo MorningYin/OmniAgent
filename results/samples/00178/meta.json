@@ -1,0 +1,29 @@
+{
+  "idx": 178,
+  "url": "http://images.cocodataset.org/train2017/000000426663.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. apple sign\nB. fire hydrant\nC. None\nD. None",
+  "options": {
+    "A": "apple sign",
+    "B": "fire hydrant",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The apple sign is clearly mounted on a distant building wall, while the fire hydrant is on the sidewalk closer to the foreground, making the apple sign further away.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.06,
+  "time_direct_answer": 0.88,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

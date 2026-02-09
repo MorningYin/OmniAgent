@@ -1,0 +1,29 @@
+{
+  "idx": 414,
+  "url": "http://images.cocodataset.org/train2017/000000354070.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. umbrella\nB. wall lamp\nC. None\nD. None",
+  "options": {
+    "A": "umbrella",
+    "B": "wall lamp",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The umbrella is clearly in the background, behind the people and table, while the wall lamp is mounted on the building wall closer to the foreground, making the umbrella further away.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.09,
+  "time_direct_answer": 1.11,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

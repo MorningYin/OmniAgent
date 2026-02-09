@@ -1,0 +1,29 @@
+{
+  "idx": 329,
+  "url": "http://images.cocodataset.org/train2017/000000025697.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. stove\nB. dining table\nC. None\nD. None",
+  "options": {
+    "A": "stove",
+    "B": "dining table",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The refrigerator is in the foreground and dominates the right side of the image, while the stove is behind it and to the left, and the dining table is further back on the left side of the room. The depth relationship is very obvious from the perspective.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "C",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.34,
+  "time_direct_answer": 1.04,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

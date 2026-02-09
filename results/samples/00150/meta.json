@@ -1,0 +1,29 @@
+{
+  "idx": 150,
+  "url": "http://images.cocodataset.org/train2017/000000353898.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. temple\nB. man in white\nC. None\nD. None",
+  "options": {
+    "A": "temple",
+    "B": "man in white",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The temple is clearly in the distant background, while the man in white is seated closer to the foreground, making the temple further away from the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.0,
+  "time_direct_answer": 0.84,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

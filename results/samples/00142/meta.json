@@ -1,0 +1,29 @@
+{
+  "idx": 142,
+  "url": "http://images.cocodataset.org/train2017/000000007616.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. traffic lights\nB. red truck\nC. None\nD. None",
+  "options": {
+    "A": "traffic lights",
+    "B": "red truck",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The traffic lights are mounted on a pole above and ahead of the red truck, and their position in the upper part of the image, combined with the truck being directly in front of the camera, clearly indicates they are further away.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.32,
+  "time_direct_answer": 0.96,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

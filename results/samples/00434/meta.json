@@ -1,0 +1,29 @@
+{
+  "idx": 434,
+  "url": "http://images.cocodataset.org/train2017/000000400309.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. \"give way\" sign\nB. \"watch for cyclist\" sign\nC. None\nD. None",
+  "options": {
+    "A": "\"give way\" sign",
+    "B": "\"watch for cyclist\" sign",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The \"watch for cyclist\" sign is positioned further to the right and appears smaller in the frame compared to the \"give way\" sign, indicating it is further away in 3D space.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.2,
+  "time_direct_answer": 1.17,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "idx": 610,
+  "url": "http://images.cocodataset.org/train2017/000000423804.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. car\nB. trains\nC. None\nD. None",
+  "options": {
+    "A": "car",
+    "B": "trains",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The train is clearly positioned in the mid-ground, behind the fence and beyond the blue car in the foreground, making its 3D distance from the camera objectively greater than the car's.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.1,
+  "time_direct_answer": 1.13,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "idx": 599,
+  "url": "http://images.cocodataset.org/val2017/000000119516.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. white digital billboard\nB. bicycle\nC. None\nD. None",
+  "options": {
+    "A": "white digital billboard",
+    "B": "bicycle",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 6,
+  "triage_need_depth": true,
+  "triage_reason": "The white digital billboard is on a distant building in the background, while the bicycle is on a sidewalk closer to the foreground, making depth judgment from a 2D image ambiguous without a depth map.",
+  "trigger_reason": "low_confidence(6)",
+  "use_editor": true,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.15,
+  "time_direct_answer": 0.85,
+  "time_depth": 3.71,
+  "time_depth_answer": 2.04,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

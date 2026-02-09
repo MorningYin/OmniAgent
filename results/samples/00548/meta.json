@@ -1,0 +1,29 @@
+{
+  "idx": 548,
+  "url": "http://images.cocodataset.org/train2017/000000397207.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. woman\nB. bus door\nC. None\nD. None",
+  "options": {
+    "A": "woman",
+    "B": "bus door",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The bus door is visibly farther back along the bus's length compared to the woman, who is standing closer to the camera's viewpoint.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 0.92,
+  "time_direct_answer": 0.95,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

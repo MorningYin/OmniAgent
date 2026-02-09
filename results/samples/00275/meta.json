@@ -1,0 +1,30 @@
+{
+  "idx": 275,
+  "url": "http://images.cocodataset.org/train2017/000000482748.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. snowboard\nB. street light\nC. None\nD. None",
+  "options": {
+    "A": "snowboard",
+    "B": "street light",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 6,
+  "triage_need_depth": true,
+  "triage_reason": "The street light is partially obscured by trees and appears smaller in the frame compared to the snowboard, suggesting it is further away, but visual cues are ambiguous without a depth map.",
+  "trigger_reason": "low_confidence(6)",
+  "use_editor": true,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.14,
+  "time_direct_answer": 0.95,
+  "time_depth": 3.75,
+  "time_depth_answer": 1.99,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

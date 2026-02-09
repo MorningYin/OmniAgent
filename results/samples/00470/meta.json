@@ -1,0 +1,29 @@
+{
+  "idx": 470,
+  "url": "http://images.cocodataset.org/train2017/000000515572.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. starbucks sign\nB. kid\nC. None\nD. None",
+  "options": {
+    "A": "starbucks sign",
+    "B": "kid",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The Starbucks sign is mounted on a building in the background, while the kid is in the foreground, making the sign clearly further away.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 0.88,
+  "time_direct_answer": 0.75,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

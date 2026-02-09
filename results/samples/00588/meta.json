@@ -1,0 +1,29 @@
+{
+  "idx": 588,
+  "url": "http://images.cocodataset.org/train2017/000000008086.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. laptop\nB. parking meter\nC. None\nD. None",
+  "options": {
+    "A": "laptop",
+    "B": "parking meter",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The parking meter is in the foreground, partially obscuring the view of the car and bicycle, while the laptop is visible through the window inside the cafe, clearly farther away.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.07,
+  "time_direct_answer": 1.28,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

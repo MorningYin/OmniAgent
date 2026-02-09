@@ -1,0 +1,29 @@
+{
+  "idx": 546,
+  "url": "http://images.cocodataset.org/train2017/000000397207.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. woman\nB. bus door\nC. None\nD. None",
+  "options": {
+    "A": "woman",
+    "B": "bus door",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The woman is standing in front of the bus and is clearly in the foreground, while the bus door is part of the bus body which is further back, making the woman closer to the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.13,
+  "time_direct_answer": 0.73,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

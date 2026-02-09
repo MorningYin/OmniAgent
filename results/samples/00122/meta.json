@@ -1,0 +1,29 @@
+{
+  "idx": 122,
+  "url": "http://images.cocodataset.org/train2017/000000202990.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. orange box\nB. laptop\nC. None\nD. None",
+  "options": {
+    "A": "orange box",
+    "B": "laptop",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The orange box is on the sidewalk across the street, while the laptop is on a blue box near the foreground, making the orange box clearly further away in 3D space.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.12,
+  "time_direct_answer": 0.88,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

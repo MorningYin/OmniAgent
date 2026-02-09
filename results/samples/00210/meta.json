@@ -1,0 +1,29 @@
+{
+  "idx": 210,
+  "url": "http://images.cocodataset.org/train2017/000000476882.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. puddle of water on the left\nB. puddle of water on the right\nC. None\nD. None",
+  "options": {
+    "A": "puddle of water on the left",
+    "B": "puddle of water on the right",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The puddle on the right is closer to the camera because it is directly adjacent to the bicycle and the pole, while the puddle on the left is further away and appears smaller in the image.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.19,
+  "time_direct_answer": 1.05,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

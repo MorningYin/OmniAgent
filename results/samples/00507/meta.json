@@ -1,0 +1,29 @@
+{
+  "idx": 507,
+  "url": "http://images.cocodataset.org/train2017/000000419089.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. bus\nB. bus stop\nC. None\nD. None",
+  "options": {
+    "A": "bus",
+    "B": "bus stop",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The bus stop structure (yellow pole and signage) is in the immediate foreground, while the bus is further down the road, making the bus stop clearly closer to the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.08,
+  "time_direct_answer": 1.05,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

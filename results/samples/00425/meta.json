@@ -1,0 +1,29 @@
+{
+  "idx": 425,
+  "url": "http://images.cocodataset.org/train2017/000000046419.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. knife\nB. cup\nC. None\nD. None",
+  "options": {
+    "A": "knife",
+    "B": "cup",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The knife is in the foreground on the cutting board, while the cup is further back on the counter, making the knife clearly closer to the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 0.96,
+  "time_direct_answer": 0.88,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

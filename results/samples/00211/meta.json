@@ -1,0 +1,30 @@
+{
+  "idx": 211,
+  "url": "http://images.cocodataset.org/train2017/000000476882.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. puddle of water on the left\nB. puddle of water on the right\nC. None\nD. None",
+  "options": {
+    "A": "puddle of water on the left",
+    "B": "puddle of water on the right",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 3,
+  "triage_need_depth": true,
+  "triage_reason": "The puddles are both in the foreground and appear very close to each other in the image, making it difficult to determine their relative 3D depth without additional depth cues or a depth map.",
+  "trigger_reason": "low_confidence(3)",
+  "use_editor": true,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.1,
+  "time_direct_answer": 1.22,
+  "time_depth": 3.7,
+  "time_depth_answer": 3.0,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

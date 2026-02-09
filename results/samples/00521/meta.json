@@ -1,0 +1,29 @@
+{
+  "idx": 521,
+  "url": "http://images.cocodataset.org/train2017/000000357684.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. clock\nB. blue board\nC. None\nD. None",
+  "options": {
+    "A": "clock",
+    "B": "blue board",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The blue board is mounted on a large structure in the background, while the clock tower is closer to the foreground, making the blue board clearly further away in 3D space.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.12,
+  "time_direct_answer": 0.98,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

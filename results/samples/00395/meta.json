@@ -1,0 +1,30 @@
+{
+  "idx": 395,
+  "url": "http://images.cocodataset.org/train2017/000000292213.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. laptop\nB. remote control\nC. None\nD. None",
+  "options": {
+    "A": "laptop",
+    "B": "remote control",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 6,
+  "triage_need_depth": true,
+  "triage_reason": "The remote control is on a patterned surface in the lower-left, while the laptop is on a wooden tray closer to the viewer; their relative positions in the image make depth judgment ambiguous without a depth map.",
+  "trigger_reason": "low_confidence(6)",
+  "use_editor": true,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.16,
+  "time_direct_answer": 0.85,
+  "time_depth": 3.71,
+  "time_depth_answer": 1.95,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

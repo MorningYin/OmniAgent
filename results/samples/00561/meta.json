@@ -1,0 +1,29 @@
+{
+  "idx": 561,
+  "url": "http://images.cocodataset.org/train2017/000000474378.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. white parking sign\nB. yellow sign\nC. None\nD. None",
+  "options": {
+    "A": "white parking sign",
+    "B": "yellow sign",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The white parking sign is on a pole near the sidewalk in the foreground, while the yellow sign is further down the street, making their relative depth very obvious from the image.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.06,
+  "time_direct_answer": 0.95,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

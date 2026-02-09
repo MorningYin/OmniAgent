@@ -1,0 +1,29 @@
+{
+  "idx": 283,
+  "url": "http://images.cocodataset.org/train2017/000000205392.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. bus\nB. black car\nC. None\nD. None",
+  "options": {
+    "A": "bus",
+    "B": "black car",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The bus is clearly positioned further back in the scene, behind the blue car and cyclists, while the black car is closer to the foreground, making the depth relationship obvious without a depth map.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.07,
+  "time_direct_answer": 0.99,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

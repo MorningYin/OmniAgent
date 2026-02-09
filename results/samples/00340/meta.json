@@ -1,0 +1,29 @@
+{
+  "idx": 340,
+  "url": "http://images.cocodataset.org/train2017/000000027365.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. score board\nB. \"stazenaer\" logo\nC. None\nD. None",
+  "options": {
+    "A": "score board",
+    "B": "\"stazenaer\" logo",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The \"stazenaer\" logo is on a green wall closer to the foreground tennis court, while the scoreboard is mounted higher and further back on the court structure, making the logo clearly nearer.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.13,
+  "time_direct_answer": 1.03,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

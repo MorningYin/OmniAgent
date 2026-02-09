@@ -1,0 +1,29 @@
+{
+  "idx": 514,
+  "url": "http://images.cocodataset.org/train2017/000000441116.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. beverage vending machine\nB. train\nC. None\nD. None",
+  "options": {
+    "A": "beverage vending machine",
+    "B": "train",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 10,
+  "triage_need_depth": false,
+  "triage_reason": "The train is in the foreground, occupying the right side of the image and extending toward the viewer, while the beverage vending machine is far in the background on the left side of the platform.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.18,
+  "time_direct_answer": 1.17,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

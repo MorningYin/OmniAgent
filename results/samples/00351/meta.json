@@ -1,0 +1,30 @@
+{
+  "idx": 351,
+  "url": "http://images.cocodataset.org/train2017/000000336580.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. \"Broadway\" sign\nB. board that says \"The Event\"\nC. None\nD. None",
+  "options": {
+    "A": "\"Broadway\" sign",
+    "B": "board that says \"The Event\"",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 6,
+  "triage_need_depth": true,
+  "triage_reason": "The \"Broadway\" sign is higher up and appears smaller in the image, suggesting it is further away than the \"The Event\" board, which is at a lower, more immediate level. However, without a depth map, the exact 3D positioning is ambiguous due to perspective and occlusion.",
+  "trigger_reason": "low_confidence(6)",
+  "use_editor": true,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.54,
+  "time_direct_answer": 0.97,
+  "time_depth": 3.72,
+  "time_depth_answer": 2.22,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

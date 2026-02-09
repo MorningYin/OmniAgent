@@ -1,0 +1,29 @@
+{
+  "idx": 64,
+  "url": "http://images.cocodataset.org/train2017/000000524924.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. knife\nB. fruit bowl\nC. None\nD. None",
+  "options": {
+    "A": "knife",
+    "B": "fruit bowl",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The knife is being held by the person and is positioned directly in front of the camera, while the fruit bowl is further back on the table, making the knife clearly closer in 3D space.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.23,
+  "time_direct_answer": 0.9,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

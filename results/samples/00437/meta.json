@@ -1,0 +1,29 @@
+{
+  "idx": 437,
+  "url": "http://images.cocodataset.org/train2017/000000247703.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. white car\nB. orange \"Z\" sign\nC. None\nD. None",
+  "options": {
+    "A": "white car",
+    "B": "orange \"Z\" sign",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The orange \"Z\" sign is mounted on a building facade that is directly adjacent to the camera's viewpoint, while the white car is several meters away on the street, making the depth relationship very obvious.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.17,
+  "time_direct_answer": 1.0,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

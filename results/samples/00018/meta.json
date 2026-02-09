@@ -1,0 +1,29 @@
+{
+  "idx": 18,
+  "url": "http://images.cocodataset.org/train2017/000000129576.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. TV\nB. stairs\nC. None\nD. None",
+  "options": {
+    "A": "TV",
+    "B": "stairs",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The stairs are clearly positioned further back in the room, beyond the TV, and are visible through the space between the TV stand and the wall, indicating they are farther from the camera than the TV.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.31,
+  "time_direct_answer": 0.87,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

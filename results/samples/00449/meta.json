@@ -1,0 +1,29 @@
+{
+  "idx": 449,
+  "url": "http://images.cocodataset.org/train2017/000000220502.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. man in grey jacket\nB. man in dark blue suit\nC. None\nD. None",
+  "options": {
+    "A": "man in grey jacket",
+    "B": "man in dark blue suit",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The man in the grey jacket is positioned in the foreground, partially blocking the view of the bus and standing closer to the camera than the man in the dark blue suit, who is further back near the bus entrance.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.22,
+  "time_direct_answer": 0.93,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

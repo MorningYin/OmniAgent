@@ -1,0 +1,30 @@
+{
+  "idx": 516,
+  "url": "http://images.cocodataset.org/train2017/000000441116.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. beverage vending machine\nB. train\nC. None\nD. None",
+  "options": {
+    "A": "beverage vending machine",
+    "B": "train",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 3,
+  "triage_need_depth": true,
+  "triage_reason": "The train is large and occupies the foreground, while the beverage vending machine is smaller and appears further back on the platform, but without a depth map it's hard to be certain due to perspective distortion.",
+  "trigger_reason": "low_confidence(3)",
+  "use_editor": true,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.16,
+  "time_direct_answer": 0.76,
+  "time_depth": 3.72,
+  "time_depth_answer": 1.96,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

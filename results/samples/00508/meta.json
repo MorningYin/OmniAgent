@@ -1,0 +1,29 @@
+{
+  "idx": 508,
+  "url": "http://images.cocodataset.org/train2017/000000419089.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. bus\nB. bus stop\nC. None\nD. None",
+  "options": {
+    "A": "bus",
+    "B": "bus stop",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The bus is clearly positioned further down the road compared to the bus stop, which is closer to the foreground on the left side of the image.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": false,
+  "error": null,
+  "time_triage": 0.98,
+  "time_direct_answer": 1.07,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

@@ -1,0 +1,27 @@
+============================================================
+[Round 1] Direct answer
+============================================================
+
+[User] <image> + answer prompt
+
+[Assistant]
+The projector is mounted on the ceiling and is positioned above the screen, which is further back on the wall. From the camera's perspective, the projector is closer to the viewer than the screen, as it is directly overhead and in front of the screen. The screen is farther away, as it is on the far wall of the room.
+
+Answer: A
+
+============================================================
+[Round 2] Depth-assisted answer
+============================================================
+
+[User] <depth_map> + depth prompt
+
+[Assistant]
+1. The projector is located near the center-top of the image, appearing as a small, medium-brightness shape. The screen is on the far wall, appearing as a dark, rectangular region.  
+2. The projector is brighter (closer) than the screen, which is very dark (farther).  
+Answer: A
+
+============================================================
+Final answer: A
+  Round 1: A
+  Round 2: A (final)
+============================================================

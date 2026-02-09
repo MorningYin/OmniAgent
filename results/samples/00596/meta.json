@@ -1,0 +1,30 @@
+{
+  "idx": 596,
+  "url": "http://images.cocodataset.org/val2017/000000119516.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. white digital billboard\nB. bicycle\nC. None\nD. None",
+  "options": {
+    "A": "white digital billboard",
+    "B": "bicycle",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 3,
+  "triage_need_depth": true,
+  "triage_reason": "The white digital billboard and the bicycle are both in the midground, and their relative depth is ambiguous in the 2D image without a depth map or clear occlusion cues to determine which is closer.",
+  "trigger_reason": "low_confidence(3)",
+  "use_editor": true,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.19,
+  "time_direct_answer": 0.77,
+  "time_depth": 3.7,
+  "time_depth_answer": 2.0,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

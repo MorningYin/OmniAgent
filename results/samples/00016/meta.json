@@ -1,0 +1,30 @@
+{
+  "idx": 16,
+  "url": "http://images.cocodataset.org/train2017/000000129576.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. TV\nB. stairs\nC. None\nD. None",
+  "options": {
+    "A": "TV",
+    "B": "stairs",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 3,
+  "triage_need_depth": true,
+  "triage_reason": "The TV and stairs are both in the mid-to-background of the room, and their depth relationship is not obvious from the 2D image without a depth map or additional context.",
+  "trigger_reason": "low_confidence(3)",
+  "use_editor": true,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.08,
+  "time_direct_answer": 1.13,
+  "time_depth": 3.81,
+  "time_depth_answer": 2.59,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

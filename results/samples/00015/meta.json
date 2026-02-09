@@ -1,0 +1,29 @@
+{
+  "idx": 15,
+  "url": "http://images.cocodataset.org/train2017/000000338288.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. ice-cream sign\nB. person in blue\nC. None\nD. None",
+  "options": {
+    "A": "ice-cream sign",
+    "B": "person in blue",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The person in blue is seated at a table in the background, while the ice-cream sign is on a building facade further back, making the person in blue appear closer to the camera than the sign.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.24,
+  "time_direct_answer": 1.9,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

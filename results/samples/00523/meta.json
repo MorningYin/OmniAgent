@@ -1,0 +1,30 @@
+{
+  "idx": 523,
+  "url": "http://images.cocodataset.org/train2017/000000519768.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. projector\nB. man in yellow\nC. None\nD. None",
+  "options": {
+    "A": "projector",
+    "B": "man in yellow",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 3,
+  "triage_need_depth": true,
+  "triage_reason": "The projector is mounted on the ceiling and appears in the upper center of the image, while the man in yellow is seated further back in the room; their relative 3D positions require depth perception to accurately judge which is closer to the camera.",
+  "trigger_reason": "low_confidence(3)",
+  "use_editor": true,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.33,
+  "time_direct_answer": 1.05,
+  "time_depth": 3.7,
+  "time_depth_answer": 2.4,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "idx": 398,
+  "url": "http://images.cocodataset.org/train2017/000000575287.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. blue flag with letter on it\nB. post office sign\nC. None\nD. None",
+  "options": {
+    "A": "blue flag with letter on it",
+    "B": "post office sign",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The blue flag is positioned higher and further back in the scene, above the crowd and buildings, while the post office sign is on a nearby building at a similar or slightly closer depth, making the flag clearly further away.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.19,
+  "time_direct_answer": 1.06,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

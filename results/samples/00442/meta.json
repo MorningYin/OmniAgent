@@ -1,0 +1,29 @@
+{
+  "idx": 442,
+  "url": "http://images.cocodataset.org/train2017/000000482819.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. train\nB. person holding bags\nC. None\nD. None",
+  "options": {
+    "A": "train",
+    "B": "person holding bags",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The train extends far into the background behind the person, and its length and position relative to the platform and poles clearly indicate it is further away than the person holding bags, who is closer to the foreground.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.2,
+  "time_direct_answer": 1.01,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

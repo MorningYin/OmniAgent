@@ -1,0 +1,29 @@
+{
+  "idx": 251,
+  "url": "http://images.cocodataset.org/train2017/000000003602.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. red sports car on the left\nB. red car on the right\nC. None\nD. None",
+  "options": {
+    "A": "red sports car on the left",
+    "B": "red car on the right",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The red car on the right is clearly further down the street and appears smaller than the red sports car on the left, indicating greater distance from the camera based on perspective and scale.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.14,
+  "time_direct_answer": 1.1,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

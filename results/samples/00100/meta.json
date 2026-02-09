@@ -1,0 +1,29 @@
+{
+  "idx": 100,
+  "url": "http://images.cocodataset.org/train2017/000000003988.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. white van\nB. pedestrian traffic light\nC. None\nD. None",
+  "options": {
+    "A": "white van",
+    "B": "pedestrian traffic light",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The white van is clearly in the foreground on the left side of the image, while the pedestrian traffic light is further back near the sidewalk, making the van closer to the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.05,
+  "time_direct_answer": 2.3,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

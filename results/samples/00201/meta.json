@@ -1,0 +1,30 @@
+{
+  "idx": 201,
+  "url": "http://images.cocodataset.org/train2017/000000375311.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. yellow store sign on the left\nB. yellow box sign on the right\nC. None\nD. None",
+  "options": {
+    "A": "yellow store sign on the left",
+    "B": "yellow box sign on the right",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 6,
+  "triage_need_depth": true,
+  "triage_reason": "The yellow box sign on the right is partially occluded by the bus and appears smaller in the frame, suggesting it is further away than the yellow store sign on the left, which is more prominent and less obscured. However, without a depth map or clear occlusion cues, this judgment is not definitive.",
+  "trigger_reason": "low_confidence(6)",
+  "use_editor": true,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.54,
+  "time_direct_answer": 0.97,
+  "time_depth": 3.68,
+  "time_depth_answer": 2.61,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "idx": 643,
+  "url": "http://images.cocodataset.org/train2017/000000400569.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. dog\nB. barn\nC. None\nD. None",
+  "options": {
+    "A": "dog",
+    "B": "barn",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The barn is clearly in the background behind the horse and dog, while the dog is closer to the foreground, making the barn further away from the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 0.99,
+  "time_direct_answer": 1.05,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

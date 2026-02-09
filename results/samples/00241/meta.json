@@ -1,0 +1,29 @@
+{
+  "idx": 241,
+  "url": "http://images.cocodataset.org/train2017/000000170035.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. horse\nB. taxi\nC. None\nD. None",
+  "options": {
+    "A": "horse",
+    "B": "taxi",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The taxi is clearly in the background, behind the horse which is in the foreground, and the perspective and blur confirm the taxi is further away.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 0.92,
+  "time_direct_answer": 0.83,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

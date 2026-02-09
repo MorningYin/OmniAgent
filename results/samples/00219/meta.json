@@ -1,0 +1,29 @@
+{
+  "idx": 219,
+  "url": "http://images.cocodataset.org/train2017/000000581704.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. dog\nB. suitcase\nC. None\nD. None",
+  "options": {
+    "A": "dog",
+    "B": "suitcase",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The dog in the background is clearly positioned further away from the camera than the suitcase in the foreground, as indicated by its smaller apparent size and less detailed features compared to the suitcase.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.15,
+  "time_direct_answer": 0.8,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

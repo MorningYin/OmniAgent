@@ -1,0 +1,30 @@
+{
+  "idx": 154,
+  "url": "http://images.cocodataset.org/train2017/000000111746.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. fire hydrant\nB. poles\nC. None\nD. None",
+  "options": {
+    "A": "fire hydrant",
+    "B": "poles",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 3,
+  "triage_need_depth": true,
+  "triage_reason": "The fire hydrant and poles are both in the foreground, and their depth relationship is ambiguous from this 2D image without additional depth cues.",
+  "trigger_reason": "low_confidence(3)",
+  "use_editor": true,
+  "final": "B",
+  "correct": false,
+  "error": null,
+  "time_triage": 0.98,
+  "time_direct_answer": 0.97,
+  "time_depth": 3.77,
+  "time_depth_answer": 2.16,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

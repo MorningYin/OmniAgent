@@ -1,0 +1,29 @@
+{
+  "idx": 323,
+  "url": "http://images.cocodataset.org/train2017/000000140963.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. man wearing a hat\nB. young man wearing glasses on the right\nC. None\nD. None",
+  "options": {
+    "A": "man wearing a hat",
+    "B": "young man wearing glasses on the right",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The man wearing a hat is positioned further back in the scene, behind the food stand and partially obscured by other people, while the young man on the right is closer to the foreground, making their relative depth relationship visually clear.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.22,
+  "time_direct_answer": 1.05,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

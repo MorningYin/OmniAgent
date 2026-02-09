@@ -28,27 +28,29 @@ Question: {question}
 Options:
 {options_text}
 
-First, briefly analyze the spatial positions of the objects in the image, then give your answer.
+Think step by step in 1-2 sentences, then give your answer.
 You must end with exactly this format:
 Answer: <a single letter A, B, C, or D>"""
 
 
 DEPTH_ASSISTED_ANSWER_TEMPLATE = """\
-Answer the following spatial reasoning question using the two images below.
+Here is a depth map of the same scene. Your previous answer may be wrong. Use the depth map to verify or correct it.
 
-The first image is the [original image]. The second image is the [depth map of the original image].
-In the depth map, brighter areas are closer to the camera and darker areas are farther away.
-
-Use the brightness differences in the depth map to determine the relative distances of the objects.
-
-Question: {question}
-
+Reminder — the question is:
+{question}
 Options:
 {options_text}
 
-First, briefly analyze the brightness differences in the depth map and the relative distances of the objects, then give your answer.
-You must end with exactly this format:
+How to read the depth map:
+- BRIGHTER (whiter) pixels = CLOSER to the camera.
+- DARKER (blacker) pixels = FARTHER from the camera.
+
+You MUST follow these steps:
+1. Identify the objects mentioned in the question. For EACH object, find its EXACT region in the depth map and describe its brightness (bright/dark/medium). Do NOT describe irrelevant objects.
+2. Compare the brightness of the relevant objects to determine their relative depth.
+3. Give your final answer based ONLY on this depth comparison. If it contradicts your previous answer, you MUST change it.
+
 Answer: <a single letter A, B, C, or D>"""
 
 
-DEPTH_MAP_TEMPLATE = "Generate a depth map of this image"
+DEPTH_MAP_TEMPLATE = "生成这张图的深度图"

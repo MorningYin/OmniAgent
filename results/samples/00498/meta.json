@@ -1,0 +1,29 @@
+{
+  "idx": 498,
+  "url": "http://images.cocodataset.org/train2017/000000512787.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. water bottle\nB. stop sign\nC. None\nD. None",
+  "options": {
+    "A": "water bottle",
+    "B": "stop sign",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The water bottle is held by a person in the foreground, while the stop sign is on a pole further down the street, making the water bottle clearly closer in 3D space.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.14,
+  "time_direct_answer": 0.84,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

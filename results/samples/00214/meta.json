@@ -1,0 +1,30 @@
+{
+  "idx": 214,
+  "url": "http://images.cocodataset.org/train2017/000000206622.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. yellow traffic sign\nB. traffic light\nC. None\nD. None",
+  "options": {
+    "A": "yellow traffic sign",
+    "B": "traffic light",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 6,
+  "triage_need_depth": true,
+  "triage_reason": "The traffic light is mounted higher on a utility pole in the background, while the yellow sign is closer to the foreground, making their depth relationship ambiguous without a depth map.",
+  "trigger_reason": "low_confidence(6)",
+  "use_editor": true,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.1,
+  "time_direct_answer": 1.2,
+  "time_depth": 3.7,
+  "time_depth_answer": 1.87,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

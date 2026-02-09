@@ -27,12 +27,14 @@ class TriageResult:
     need_depth_map: bool
     reason: str
     raw_output: str
+    messages: list = None          # triage 对话上下文，用于多轮续接
 
 
 @dataclass
 class AnswerResult:
     answer: str
     raw_output: str
+    messages: list = None          # 对话上下文，用于多轮续接
 
 
 class VLMEngine:
@@ -80,6 +82,8 @@ class VLMEngine:
             return_tensors="pt",
         ).to(self.model.device)
 
+        torch.manual_seed(self.config.seed)
+        torch.cuda.manual_seed_all(self.config.seed)
         generated_ids = self.model.generate(
             **inputs,
             max_new_tokens=max_new_tokens or self.config.answer_max_new_tokens,
@@ -120,7 +124,12 @@ class VLMEngine:
             },
         ]
         raw = self._generate(messages, max_new_tokens=self.config.triage_max_new_tokens)
-        return self._parse_triage(raw)
+        result = self._parse_triage(raw)
+        # 保存完整对话上下文（含 assistant 回复），供深度图轮次续接
+        result.messages = messages + [
+            {"role": "assistant", "content": [{"type": "text", "text": raw}]},
+        ]
+        return result
 
     # ── Direct answer (no depth map) ────────────────────────────────────
 
@@ -141,27 +150,31 @@ class VLMEngine:
         ]
         raw = self._generate(messages, max_new_tokens=self.config.answer_max_new_tokens)
         answer = self._parse_answer(raw)
-        return AnswerResult(answer=answer, raw_output=raw)
+        result = AnswerResult(answer=answer, raw_output=raw)
+        result.messages = messages + [
+            {"role": "assistant", "content": [{"type": "text", "text": raw}]},
+        ]
+        return result
 
     # ── Depth-assisted answer ───────────────────────────────────────────
 
     def run_depth_assisted_answer(
         self,
-        original_image: Image.Image,
         depth_map: Image.Image,
+        direct_answer: "AnswerResult",
         question: str,
         options: dict,
     ) -> AnswerResult:
+        """多轮续接：在直接回答上下文基础上追加深度图，让 VLM 修正回答。"""
         options_text = self._format_options(options)
         user_text = DEPTH_ASSISTED_ANSWER_TEMPLATE.format(
-            question=question, options_text=options_text,
+            question=question,
+            options_text=options_text,
         )
-        messages = [
-            {"role": "system", "content": [{"type": "text", "text": SYSTEM_PROMPT}]},
+        messages = direct_answer.messages + [
             {
                 "role": "user",
                 "content": [
-                    {"type": "image", "image": original_image},
                     {"type": "image", "image": depth_map},
                     {"type": "text", "text": user_text},
                 ],

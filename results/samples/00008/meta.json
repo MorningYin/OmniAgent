@@ -1,0 +1,29 @@
+{
+  "idx": 8,
+  "url": "http://images.cocodataset.org/train2017/000000282720.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. donuts\nB. coffee cup\nC. None\nD. None",
+  "options": {
+    "A": "donuts",
+    "B": "coffee cup",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The donuts are being held in the foreground and are the most prominent object in the image, while the coffee cup is further back on the table, making their relative depth very obvious.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.08,
+  "time_direct_answer": 0.71,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

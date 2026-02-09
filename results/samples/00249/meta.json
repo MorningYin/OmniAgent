@@ -1,0 +1,29 @@
+{
+  "idx": 249,
+  "url": "http://images.cocodataset.org/train2017/000000312524.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. man in grey suit\nB. man in striped shirt\nC. None\nD. None",
+  "options": {
+    "A": "man in grey suit",
+    "B": "man in striped shirt",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The man in the striped shirt is visibly behind the man in the grey suit and further into the background, making his 3D location clearly farther from the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.04,
+  "time_direct_answer": 1.1,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

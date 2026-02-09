@@ -1,0 +1,29 @@
+{
+  "idx": 544,
+  "url": "http://images.cocodataset.org/train2017/000000141860.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. microwave\nB. white handbag\nC. None\nD. None",
+  "options": {
+    "A": "microwave",
+    "B": "white handbag",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The microwave is clearly mounted on the wall behind the counter and is further back in the kitchen than the white handbag, which is on the counter closer to the foreground.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.03,
+  "time_direct_answer": 1.02,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

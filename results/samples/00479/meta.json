@@ -1,0 +1,29 @@
+{
+  "idx": 479,
+  "url": "http://images.cocodataset.org/train2017/000000171422.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. airplane engine\nB. man in yellow vest\nC. None\nD. None",
+  "options": {
+    "A": "airplane engine",
+    "B": "man in yellow vest",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The man in the yellow vest is positioned on a mobile staircase near the aircraft door, while the airplane engine is part of the aircraft fuselage visible in the foreground, making the man appear closer to the camera than the engine.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.23,
+  "time_direct_answer": 1.07,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

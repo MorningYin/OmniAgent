@@ -1,0 +1,29 @@
+{
+  "idx": 44,
+  "url": "http://images.cocodataset.org/train2017/000000420658.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. one way sign\nB. street signs\nC. None\nD. None",
+  "options": {
+    "A": "one way sign",
+    "B": "street signs",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The \"one way\" sign is physically mounted directly below the stop sign and street signs on the same pole, making it clearly closer to the camera in 3D space.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.06,
+  "time_direct_answer": 1.33,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

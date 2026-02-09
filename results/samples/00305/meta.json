@@ -1,0 +1,30 @@
+{
+  "idx": 305,
+  "url": "http://images.cocodataset.org/train2017/000000412545.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. milk\nB. container in the fridge\nC. None\nD. None",
+  "options": {
+    "A": "milk",
+    "B": "container in the fridge",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 6,
+  "triage_need_depth": true,
+  "triage_reason": "The milk is on the right door shelf, while the container is on a middle shelf inside the fridge, making their depth relationship ambiguous without a depth map.",
+  "trigger_reason": "low_confidence(6)",
+  "use_editor": true,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.0,
+  "time_direct_answer": 1.04,
+  "time_depth": 3.73,
+  "time_depth_answer": 2.12,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

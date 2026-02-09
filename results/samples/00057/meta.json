@@ -1,0 +1,29 @@
+{
+  "idx": 57,
+  "url": "http://images.cocodataset.org/train2017/000000027777.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. boat\nB. fire hydrant\nC. None\nD. None",
+  "options": {
+    "A": "boat",
+    "B": "fire hydrant",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The fire hydrant is on the sidewalk in the foreground, while the boat is in the water further back, making the fire hydrant clearly closer to the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.03,
+  "time_direct_answer": 0.93,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

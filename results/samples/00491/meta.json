@@ -1,0 +1,29 @@
+{
+  "idx": 491,
+  "url": "http://images.cocodataset.org/train2017/000000050360.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. trash can\nB. white fence\nC. None\nD. None",
+  "options": {
+    "A": "trash can",
+    "B": "white fence",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The white fence extends into the background and is positioned behind the trash can, which is in the foreground, making its 3D location clearly further away.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.0,
+  "time_direct_answer": 0.81,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

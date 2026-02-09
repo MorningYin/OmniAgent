@@ -1,0 +1,29 @@
+{
+  "idx": 603,
+  "url": "http://images.cocodataset.org/train2017/000000426350.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. fries\nB. cup\nC. None\nD. None",
+  "options": {
+    "A": "fries",
+    "B": "cup",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The cup is positioned in the background behind the plate of fries, making it clearly further away from the camera in the real-world 3D scene.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 0.96,
+  "time_direct_answer": 0.94,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

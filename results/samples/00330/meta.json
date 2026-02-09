@@ -1,0 +1,29 @@
+{
+  "idx": 330,
+  "url": "http://images.cocodataset.org/train2017/000000025697.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. stove\nB. dining table\nC. None\nD. None",
+  "options": {
+    "A": "stove",
+    "B": "dining table",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The dining table is clearly in the background on the left side of the image, while the stove is closer to the foreground on the right, making the dining table further away from the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.09,
+  "time_direct_answer": 0.86,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

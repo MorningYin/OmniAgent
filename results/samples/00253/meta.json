@@ -1,0 +1,29 @@
+{
+  "idx": 253,
+  "url": "http://images.cocodataset.org/train2017/000000096294.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. chef on the right\nB. national flag\nC. None\nD. None",
+  "options": {
+    "A": "chef on the right",
+    "B": "national flag",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The national flag is mounted on a wall in the background, behind the chef on the right, making it clearly further away from the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 0.99,
+  "time_direct_answer": 0.93,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "idx": 567,
+  "url": "http://images.cocodataset.org/train2017/000000488203.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. 7.00 price sign\nB. tv\nC. None\nD. None",
+  "options": {
+    "A": "7.00 price sign",
+    "B": "tv",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 6,
+  "triage_need_depth": true,
+  "triage_reason": "The 3D depth relationship between the TV and the price sign is not obvious from the 2D image alone, as both are mounted on the wall at different heights and angles, requiring depth cues to determine which is further away.",
+  "trigger_reason": "low_confidence(6)",
+  "use_editor": true,
+  "final": "A",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.3,
+  "time_direct_answer": 0.93,
+  "time_depth": 3.68,
+  "time_depth_answer": 1.98,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

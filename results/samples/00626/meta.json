@@ -1,0 +1,29 @@
+{
+  "idx": 626,
+  "url": "http://images.cocodataset.org/train2017/000000088487.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. bus stop\nB. \"Seltzer Way\" sign\nC. None\nD. None",
+  "options": {
+    "A": "bus stop",
+    "B": "\"Seltzer Way\" sign",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The \"Seltzer Way\" sign is mounted higher on the pole and appears smaller in the frame compared to the bus stop, which is closer to the camera on the sidewalk, indicating it is further away in 3D space.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.32,
+  "time_direct_answer": 0.99,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

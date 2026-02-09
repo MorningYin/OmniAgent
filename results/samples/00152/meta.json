@@ -1,0 +1,29 @@
+{
+  "idx": 152,
+  "url": "http://images.cocodataset.org/train2017/000000111746.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. fire hydrant\nB. poles\nC. None\nD. None",
+  "options": {
+    "A": "fire hydrant",
+    "B": "poles",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The fire hydrant is clearly in the foreground, positioned between the camera and the poles, while the poles are slightly behind it, making the fire hydrant closer to the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.12,
+  "time_direct_answer": 0.94,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

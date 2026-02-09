@@ -1,0 +1,29 @@
+{
+  "idx": 204,
+  "url": "http://images.cocodataset.org/train2017/000000514685.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. frisbee\nB. teal truck\nC. None\nD. None",
+  "options": {
+    "A": "frisbee",
+    "B": "teal truck",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The teal truck is clearly positioned in the background behind the dog and frisbee, while the frisbee is being held by the dog in the foreground, making the truck visibly further away.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.18,
+  "time_direct_answer": 0.99,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

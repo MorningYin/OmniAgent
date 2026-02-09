@@ -1,0 +1,29 @@
+{
+  "idx": 327,
+  "url": "http://images.cocodataset.org/train2017/000000456827.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. fire hydrant\nB. stop sign\nC. None\nD. None",
+  "options": {
+    "A": "fire hydrant",
+    "B": "stop sign",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The stop sign is visibly farther away from the camera than the fire hydrant, as it is positioned further down the road and appears smaller in the image, indicating greater distance.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.11,
+  "time_direct_answer": 1.36,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

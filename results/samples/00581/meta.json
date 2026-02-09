@@ -1,0 +1,29 @@
+{
+  "idx": 581,
+  "url": "http://images.cocodataset.org/train2017/000000052282.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. TV\nB. bicycle\nC. None\nD. None",
+  "options": {
+    "A": "TV",
+    "B": "bicycle",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The TV is on a wooden stand in the foreground, while the bicycle is positioned further back in the room, clearly indicating the TV is closer to the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.08,
+  "time_direct_answer": 0.88,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

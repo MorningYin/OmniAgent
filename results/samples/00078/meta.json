@@ -1,0 +1,29 @@
+{
+  "idx": 78,
+  "url": "http://images.cocodataset.org/train2017/000000347300.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. tv\nB. laptop on couch\nC. None\nD. None",
+  "options": {
+    "A": "tv",
+    "B": "laptop on couch",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The laptop on the couch is clearly in the foreground, while the TV is on a media console in the mid-ground, making the TV further away from the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.08,
+  "time_direct_answer": 0.91,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

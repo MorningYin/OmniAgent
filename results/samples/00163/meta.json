@@ -1,0 +1,30 @@
+{
+  "idx": 163,
+  "url": "http://images.cocodataset.org/train2017/000000294397.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. airport lounge\nB. airplane\nC. None\nD. None",
+  "options": {
+    "A": "airport lounge",
+    "B": "airplane",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 6,
+  "triage_need_depth": true,
+  "triage_reason": "The airport lounge is partially obscured by the airplane and appears smaller in the image, suggesting it is further away, but the airplane is also far and partially occluded by the crowd, making precise depth comparison difficult without a depth map.",
+  "trigger_reason": "low_confidence(6)",
+  "use_editor": true,
+  "final": "B",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.25,
+  "time_direct_answer": 0.8,
+  "time_depth": 3.69,
+  "time_depth_answer": 2.86,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}

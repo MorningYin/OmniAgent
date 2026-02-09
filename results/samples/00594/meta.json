@@ -1,0 +1,29 @@
+{
+  "idx": 594,
+  "url": "http://images.cocodataset.org/train2017/000000430739.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. space shuttle\nB. camera crane\nC. None\nD. None",
+  "options": {
+    "A": "space shuttle",
+    "B": "camera crane",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 9,
+  "triage_need_depth": false,
+  "triage_reason": "The space shuttle is clearly in the background, while the camera crane (implied by the person holding a camera in the foreground) is much closer to the viewer, making the shuttle further away.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.14,
+  "time_direct_answer": 1.65,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

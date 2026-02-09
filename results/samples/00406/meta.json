@@ -1,0 +1,29 @@
+{
+  "idx": 406,
+  "url": "http://images.cocodataset.org/train2017/000000064562.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. cow\nB. SUV\nC. None\nD. None",
+  "options": {
+    "A": "cow",
+    "B": "SUV",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The SUV is clearly positioned further down the road and behind the cow in the 2D image, with the cow appearing larger and closer to the foreground, indicating it is nearer to the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.15,
+  "time_direct_answer": 1.17,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

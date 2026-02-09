@@ -1,0 +1,25 @@
+{
+  "total": 678,
+  "correct": 562,
+  "accuracy": 0.8289085545722714,
+  "confidence_distribution": {
+    "9": 329,
+    "8": 232,
+    "3": 63,
+    "6": 46,
+    "10": 8
+  },
+  "trigger_reason_distribution": {
+    "skipped": 569,
+    "low_confidence(3)": 63,
+    "low_confidence(6)": 46
+  },
+  "editor_used_count": 109,
+  "editor_used_rate": 0.1607669616519174,
+  "editor_correct": 82,
+  "editor_accuracy": 0.7522935779816514,
+  "no_editor_correct": 480,
+  "no_editor_accuracy": 0.843585237258348,
+  "total_time_seconds": 2140.1,
+  "mode": "full"
+}

@@ -1,0 +1,29 @@
+{
+  "idx": 510,
+  "url": "http://images.cocodataset.org/train2017/000000118870.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. gasoline barrel\nB. potted plants\nC. None\nD. None",
+  "options": {
+    "A": "gasoline barrel",
+    "B": "potted plants",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The potted plants are in the foreground on the left side of the image, while the gasoline barrels are further back on the ground under the awning, making the potted plants clearly closer to the camera.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.15,
+  "time_direct_answer": 0.9,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

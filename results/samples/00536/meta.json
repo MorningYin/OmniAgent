@@ -1,0 +1,29 @@
+{
+  "idx": 536,
+  "url": "http://images.cocodataset.org/train2017/000000048742.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. green traffic sign\nB. red pickup truck\nC. None\nD. None",
+  "options": {
+    "A": "green traffic sign",
+    "B": "red pickup truck",
+    "C": null,
+    "D": null
+  },
+  "gt": "B",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The green traffic sign is mounted high on a pole above the highway, while the red pickup truck is on the road surface further down the highway, making the sign appear closer to the camera based on perspective and relative position.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "A",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.23,
+  "time_direct_answer": 1.08,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

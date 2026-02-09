@@ -1,0 +1,29 @@
+{
+  "idx": 72,
+  "url": "http://images.cocodataset.org/train2017/000000146151.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is closer to the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is closer to the camera?\nA. blue motorcycle\nB. green motorcycle\nC. None\nD. None",
+  "options": {
+    "A": "blue motorcycle",
+    "B": "green motorcycle",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 8,
+  "triage_need_depth": false,
+  "triage_reason": "The green motorcycle is in the foreground with its license plate and front wheel clearly visible and closer to the camera than the blue motorcycle, which is further back in the scene.",
+  "trigger_reason": "skipped",
+  "use_editor": false,
+  "final": "B",
+  "correct": false,
+  "error": null,
+  "time_triage": 1.09,
+  "time_direct_answer": 0.82,
+  "time_depth": null,
+  "time_depth_answer": null,
+  "files": {
+    "original": "original.jpg",
+    "conversation": "conversation.txt"
+  }
+}

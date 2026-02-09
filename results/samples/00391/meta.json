@@ -1,0 +1,30 @@
+{
+  "idx": 391,
+  "url": "http://images.cocodataset.org/train2017/000000357782.jpg",
+  "question": "Consider the real-world 3D location of the objects. Which object is further away from the camera?",
+  "question_with_options": "Consider the real-world 3D location of the objects. Which object is further away from the camera?\nA. person in white sweater\nB. stainless steel scale\nC. None\nD. None",
+  "options": {
+    "A": "person in white sweater",
+    "B": "stainless steel scale",
+    "C": null,
+    "D": null
+  },
+  "gt": "A",
+  "triage_confidence": 6,
+  "triage_need_depth": true,
+  "triage_reason": "The stainless steel scale is partially obscured by the person in the white sweater and appears to be behind them, suggesting it is further away in the 3D scene. However, depth perception from a 2D image is inherently ambiguous without a depth map or additional context to confirm this spatial relationship definitively.",
+  "trigger_reason": "low_confidence(6)",
+  "use_editor": true,
+  "final": "A",
+  "correct": true,
+  "error": null,
+  "time_triage": 1.54,
+  "time_direct_answer": 1.05,
+  "time_depth": 3.72,
+  "time_depth_answer": 1.82,
+  "files": {
+    "original": "original.jpg",
+    "depth_map": "depth_map.png",
+    "conversation": "conversation.txt"
+  }
+}
