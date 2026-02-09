@@ -1,0 +1,12 @@
+torch>=2.1.0
+torchvision>=0.16.0
+transformers>=4.45.0
+accelerate>=0.34.0
+diffusers>=0.31.0
+sentencepiece
+protobuf
+pillow
+qwen-vl-utils
+requests
+safetensors
+peft
